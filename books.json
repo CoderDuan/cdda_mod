@@ -1,0 +1,37 @@
+[
+  {
+    "id": "manual_madmax",
+    "type": "BOOK",
+    "symbol": "?",
+    "color": "green",
+    "name": "Mad Max: Fury Road",
+    "name_plural": "Mad Max: Fury Road",
+    "description": "Mad Max: Fury Road is a 2015 action film directed and produced by George Miller. The film is set in a future desert wasteland where gasoline and water are scarce commodities. It follows Max Rockatansky (Tom Hardy), who joins forces with Imperator Furiosa (Charlize Theron) to flee from cult leader Immortan Joe (Hugh Keays-Byrne) and his army in an armoured tanker truck, which leads to a lengthy road battle.",
+    "price": 50000,
+    "material": "paper",
+    "volume": 3,
+    "weight": 200,
+    "intelligence" : 6,
+    "time" : 12,
+    "fun" : 5
+  },
+  {
+    "id": "manual_mars",
+    "type": "BOOK",
+    "symbol": "?",
+    "color": "green",
+    "name": "秘银合金应用年度报告（2024）",
+    "name_plural": "秘银合金应用年度报告（2024）",
+    "description": "这本书详细介绍了多种MARS最新科技产物的技术细节，极具参考价值和观赏性。",
+    "price": 50000,
+    "material": "paper",
+    "volume": 3,
+    "weight": 200,
+    "skill": "computer",
+    "required_level": 7,
+    "max_level": 10,
+    "intelligence" : 12,
+    "time" : 60,
+    "fun" : 2
+  }
+]

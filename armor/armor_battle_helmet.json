@@ -1,0 +1,66 @@
+[
+  {
+      "id": "mars_battle_helmet",
+      "type": "TOOL_ARMOR",
+      "category" : "clothing",
+      "symbol": "%",
+      "color": "cyan",
+      "name" : "MARS 精英战术头盔Mk12",
+      "name_plural" : "MARS 战术头盔Mk12",
+      "description": "MARS生产的高级战术头盔，面向特种部队使用。内置红外夜视镜，微型战术计算机，听觉调节，温度湿度气压传感器。除了本身的强大功能外，其出色的外形设计让其收到大众的一致好评。",
+      "flags" : ["SKINTIGHT", "WATERPROOF", "RAINPROOF", "STURDY", "RAD_PROOF", "ELECTRIC_IMMUNE", "GAS_PROOF", "SUN_GLASSES", "TRADER_AVOID", "FANCY", "THERMOMETER", "BAROMETER", "HYGROMETER", "PARTIAL_DEAF", "SUN_GLASSES" ],
+      "price": 920000,
+      "material": ["mithril", "kevlar", "plastic" ],
+      "weight" : 1020,
+      "volume": 4,
+      "to_hit" : -3,
+      "ammo": "battery",
+      "use_action": [
+        {
+          "type": "transform",
+          "menu_text": "开启夜视仪",
+          "msg": "You activate your %s.",
+          "target": "mars_battle_helmet_on",
+          "active": true
+        }
+      ],
+      "covers" : ["HEAD", "MOUTH", "EYES"],
+      "warmth" : 15,
+      "environmental_protection" : 20,
+      "encumbrance" : 0,
+      "coverage" : 100,
+      "material_thickness" : 2
+  },
+  {
+      "id": "mars_battle_helmet_on",
+      "type": "TOOL_ARMOR",
+      "category" : "clothing",
+      "symbol": "%",
+      "color": "cyan",
+      "name": "MARS 精英战术头盔Mk12(开)",
+      "name_plural": "MARS 战术头盔Mk12(开)",
+      "description": "MARS生产的高级战术头盔，面向特种部队使用。内置红外夜视镜，微型战术计算机，听觉调节，温度湿度气压传感器。除了本身的强大功能外，其出色的外形设计让其收到大众的一致好评。",
+      "flags" : ["GNV_EFFECT", "SKINTIGHT", "WATERPROOF", "RAINPROOF", "STURDY", "RAD_PROOF", "ELECTRIC_IMMUNE", "GAS_PROOF", "SUN_GLASSES", "TRADER_AVOID", "FANCY", "THERMOMETER", "BAROMETER", "HYGROMETER", "PARTIAL_DEAF", "SUN_GLASSES" ],
+      "price": 920000,
+      "material": ["mithril", "kevlar", "plastic" ],
+      "weight" : 1020,
+      "volume": 4,
+      "to_hit" : -3,
+      "ammo": "battery",
+      "revert_to": "goggles_nv",
+      "use_action": [
+        {
+          "type": "transform",
+          "menu_text": "Turn off",
+          "msg": "Your %s deactivates.",
+          "target": "mars_battle_helmet"
+        }
+      ],
+      "covers" : ["HEAD", "MOUTH", "EYES"],
+      "warmth" : 15,
+      "environmental_protection" : 20,
+      "encumbrance" : 0,
+      "coverage" : 100,
+      "material_thickness" : 2
+  }
+]

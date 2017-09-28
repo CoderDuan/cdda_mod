@@ -1,0 +1,95 @@
+[
+  {
+    "type" : "item_group",
+    "id" : "chem_school",
+    "items" : [
+      [ "material_mithril_ore", 10 ],
+      [ "material_mithril_ingot", 3 ]
+    ]
+  },
+  {
+    "type" : "item_group",
+    "id" : "chem_lab",
+    "items" : [
+      [ "material_mithril_ore", 15 ],
+      [ "material_mithril_ingot", 5 ]
+    ]
+  },
+  {
+    "type" : "item_group",
+    "id" : "cavern",
+    "items" : [
+      [ "material_mithril_ore", 3 ],
+      [ "material_mithril_ingot", 1 ]
+    ]
+  },
+  {
+    "type" : "item_group",
+    "id" : "pawn",
+    "items" : [
+      [ "material_mithril_ore", 15 ],
+      [ "material_mithril_ingot", 5 ]
+    ]
+  },
+  {
+    "type" : "item_group",
+    "id" : "hardware_bulk",
+    "items" : [
+      [ "material_mithril_ore", 10 ]
+    ]
+  },
+  {
+    "type" : "item_group",
+    "id"   : "vault",
+    "items":[
+      ["material_mithril_ingot", 30]
+    ]
+  },
+  {
+    "type" : "item_group",
+    "id"   : "art",
+    "items":[
+      [ "material_mithril_ore", 10 ],
+      ["material_mithril_ingot", 3]
+    ]
+  },
+  {
+    "type" : "item_group",
+    "id"   : "pawn",
+    "items":[
+      [ "material_mithril_ore", 3 ],
+      ["material_mithril_ingot", 1]
+    ]
+  },
+  {
+    "type" : "item_group",
+    "id"   : "jewelry_safe",
+    "items":[
+      [ "mithril_hammer", 20 ],
+      [ "material_mithril_ore", 10 ],
+      [ "material_mithril_ingot", 10 ]
+    ]
+  },
+  {
+    "type" : "item_group",
+    "id"   : "jewelry_safe",
+    "items":[
+      [ "material_mithril_ore", 20 ],
+      [ "material_mithril_ingot", 10 ]
+    ]
+  },
+  {
+    "type" : "item_group",
+    "id"   : "mine_storage",
+    "items":[
+      [ "material_mithril_ore", 5 ]
+    ]
+  },
+  {
+    "type" : "item_group",
+    "id"   : "science",
+    "items":[
+      [ "material_mithril_ore", 3 ]
+    ]
+  }
+]

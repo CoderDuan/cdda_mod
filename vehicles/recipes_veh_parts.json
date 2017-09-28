@@ -1,0 +1,154 @@
+[
+  {
+    "type" : "recipe",
+    "result": "chemlab_advanced",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_PARTS",
+    "skill_used": "fabrication",
+    "skills_required": ["electronics",5],
+    "difficulty": 5,
+    "time": 60000,
+    "reversible": true,
+    "decomp_learn": 5,
+    "autolearn": false,
+    "book_learn": [["textbook_fabrication", 3] , ["manual_fabrication", 3] , ["manual_electronics", 3] , ["manual_mechanics", 3]],
+    "qualities":[
+      {"id":"HAMMER","level":3,"amount":1},
+      {"id":"SAW_M","level":1,"amount":1},
+      {"id":"WRENCH","level":1,"amount":1},
+      { "id" : "GLARE", "level" : 2 }
+    ],
+    "tools": [
+      [
+        [ "welder", 100 ],
+        [ "oxy_torch", 20 ],
+        [ "welder_crude", 150 ],
+        [ "toolset", 150 ]
+      ]
+    ],
+    "components": [
+      [ [ "frame", 1 ] ],
+      [ [ "chemistry_set_advanced", 1 ] ],
+      [ [ "water_faucet", 1 ] ],
+      [ [ "power_supply", 1 ] ],
+      [ [ "cable", 5 ] ]
+    ]
+  },
+  {
+    "type" : "recipe",
+    "result": "survivor_workbench_item",
+    "byproducts": [[ "frame", 4 ]],
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_PARTS",
+    "skill_used": "fabrication",
+    "skills_required": [
+      [ "electronics", 7 ],
+      [ "computer", 7],
+      [ "mechanics", 7 ] ],
+    "difficulty": 10,
+    "time": 30000,
+    "reversible": false,
+    "decomp_learn": 4,
+    "book_learn": [[ "manual_mars", 5 ]],
+    "qualities" : [
+      { "id": "HAMMER","level":3,"amount":1},
+      { "id": "HAMMER_FINE","level":2,"amount":1},
+      { "id": "SAW_M","level":1,"amount":1},
+      { "id": "WRENCH","level":1,"amount":1},
+      { "id": "SCREW","level":1,"amount":1},
+      { "id": "GLARE", "level" : 2 }
+     ],
+    "tools": [
+      [
+        [ "welder", 100 ],
+        [ "oxy_torch", 20 ],
+        [ "welder_crude", 150 ],
+        [ "toolset", 150 ]
+      ]
+    ],
+    "components": [
+      [[ "mithril_plate", 1]],
+      [[ "craftrig", 1 ]],
+      [[ "chemlab", 1 ]],
+      [[ "forgerig", 1 ]],
+      [[ "weldrig", 1 ]],
+      [[ "minireactor", 1 ]],
+      [[ "plut_cell", 50 ]]
+    ]
+  },
+  {
+    "type" : "recipe",
+    "result": "mithril_cargo_rack",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_PARTS",
+    "skill_used": "fabrication",
+    "difficulty": 7,
+    "time": 60000,
+    "book_learn": [[ "manual_mars", 5 ]],
+    "qualities":[
+      {"id":"HAMMER","level":3},
+      {"id":"HAMMER_FINE","level":2},
+      {"id":"SAW_M","level":1},
+      {"id":"WRENCH","level":1},
+      {"id":"GLARE", "level":2 }
+    ], "tools": [
+      [
+        [ "welder", 100 ],
+        [ "welder_crude", 150 ],
+        [ "toolset", 150 ],
+        [ "oxy_torch", 20 ]
+      ]
+    ],
+    "components": [
+      [
+        [ "mithril_plate", 1 ]
+      ],
+      [ [ "cargo_rack", 2 ] ]
+    ]
+  },{
+    "type" : "recipe",
+    "result": "comfortable_seat",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_PARTS",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": 20000,
+    "reversible": true,
+    "autolearn": true,
+    "using": [ [ "filament", 50 ], [ "rope_natural", 4 ] ],
+    "qualities": [{
+          "id": "GLARE",
+          "level": 2
+      }, {
+          "id": "SEW",
+          "level": 1
+      }
+    ],
+    "tools": [
+      [
+        [ "welder", 100 ],
+        [ "welder_crude", 150 ],
+        [ "toolset", 150 ]
+      ]
+    ],
+    "components": [
+      [
+        [ "pipe", 4 ]
+      ],
+      [
+        [ "spring", 4 ]
+      ],
+      [
+        [ "motor_small", 1 ]
+      ],
+      [
+        [ "leather", 15 ],
+        [ "fur", 15 ],
+        [ "rag", 25 ],
+        [ "tanned_hide", 4 ],
+        [ "tanned_pelt", 4 ],
+        [ "sheet", 2 ]
+      ]
+    ]
+  }
+]

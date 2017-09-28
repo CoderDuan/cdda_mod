@@ -1,0 +1,57 @@
+[
+  {
+      "type" : "vehicle_part",
+      "id" : "chemlab_advanced",
+      "name" : "车载高级化学实验室",
+      "symbol" : "&",
+      "color" : "yellow",
+      "broken_symbol" : "x",
+      "broken_color" : "light_gray",
+      "damage_modifier" : 10,
+      "durability" : 100,
+      "size" : 500,
+      "item" : "chemlab_advanced",
+      "difficulty" : 3,
+      "location" : "center",
+      "flags" : ["CARGO", "OBSTACLE", "CHEMLAB", "FAUCET", "COVERED"],
+      "breaks_into" : [
+          {"item": "steel_lump", "count": [5, 8]},
+          {"item": "steel_chunk", "count": [5, 8]},
+          {"item": "scrap", "count": [5, 8]},
+          {"item": "chemistry_set", "charges": 0, "prob": 50},
+          {"item": "hotplate", "charges": 0, "prob": 50}
+      ]
+  },
+  {
+    "id" : "survivor_workbench",
+    "type" : "vehicle_part",
+    "name" : "Survivor's车载工作台",
+    "symbol" : "&",
+    "color" : "light_green",
+    "broken_symbol" : "x",
+    "broken_color" : "light_gray",
+    "damage_modifier" : 10,
+    "durability" : 600,
+    "epower" : 4000,
+    "size" : 640,
+    "item" : "survivor_workbench_item",
+    "difficulty" : 3,
+    "location" : "center",
+    "flags" : ["CARGO", "OBSTACLE", "KITCHEN", "CHEMLAB", "FORGE", "WELDRIG", "FAUCET", "CRAFTRIG", "WATER_PURIFIER", "COVERED", "TOOL_WRENCH", "REACTOR", "RECHARGE", "FRIDGE" ],
+    "breaks_into" : [
+      {"item": "steel_lump", "count": [4, 7]},
+      {"item": "steel_chunk", "count": [4, 7]},
+      {"item": "scrap", "count": [4, 7]},
+      {"item": "pan", "prob": 50},
+      {"item": "pot", "prob": 50},
+      {"item": "water_purifier", "charges": 0, "prob": 50},
+      {"item": "vac_sealer", "charges": 0, "prob": 50},
+      {"item": "dehydrator", "charges": 0, "prob": 50},
+      {"item": "food_processor", "charges": 0, "prob": 50},
+      {"item": "chemistry_set", "charges": 0, "prob": 50},
+      {"item": "hotplate", "charges": 0, "prob": 50},
+      {"item": "welder", "charges": 0, "prob": 50},
+      {"item": "press", "charges": 0, "prob": 50}
+    ]
+  }
+]

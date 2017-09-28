@@ -1,0 +1,123 @@
+[
+  {
+    "type" : "vehicle_part",
+    "id" : "mithril_vehicle_armor",
+    "name" : "秘银装甲板",
+    "symbol" : ")",
+    "color" : "light_cyan",
+    "broken_symbol" : ")",
+    "broken_color" : "light_cyan",
+    "durability" : 1000,
+    "item" : "mithril_plate",
+    "difficulty" : 2,
+    "location" : "armor",
+    "flags" : ["ARMOR"],
+    "breaks_into": [ { "item": "material_mithril_ingot" ,  "count": [4, 7] } ],
+    "damage_reduction" : {
+        "all" : 50,
+        "cut" : 75,
+        "stab" : 90
+    }
+  },
+  {
+    "type" : "vehicle_part",
+    "id" : "mithril_cargo_space",
+    "name" : "秘银货仓",
+    "symbol" : "E",
+    "color" : "white",
+    "broken_symbol" : "#",
+    "broken_color" : "white",
+    "durability" : 900,
+    "item" : "mithril_cargo_rack",
+    "size" : 4000,
+    "difficulty" : 2,
+    "location" : "center",
+    "flags" : ["OBSTACLE", "CARGO", "COVERED"],
+    "breaks_into": [ { "item": "material_mithril_ingot" ,  "count": [4, 7] } ],
+    "damage_reduction" : {
+        "all" : 10,
+        "cut" : 15,
+        "stab" : 20
+    }
+  },
+  {
+    "id": "internal_tank",
+    "type": "vehicle_part",
+    "name": "内部油箱(200L)",
+    "item": "55gal_drum",
+    "location": "center",
+    "symbol": "O",
+    "broken_color": "red",
+    "difficulty": 1,
+    "durability": 300,
+    "size": 200000,
+    "damage_modifier": 80,
+    "flags" : ["OBSTACLE"],
+    "breaks_into": [
+      { "item": "steel_lump", "count": [ 2, 2 ] },
+      { "item": "steel_chunk", "count": [ 1, 2 ] },
+      { "item": "scrap", "count": [ 1, 5 ] }
+    ]
+  },{
+      "type" : "vehicle_part",
+      "id" : "comfortable_seat",
+      "name" : "舒适座椅",
+      "symbol" : "#",
+      "color" : "red",
+      "broken_symbol" : "*",
+      "broken_color" : "red",
+      "damage_modifier" : 60,
+      "durability" : 300,
+      "item" : "comfortable_seat",
+      "difficulty" : 2,
+      "size" : 800,
+      "location" : "center",
+      "flags" : ["BED", "SEAT", "BOARDABLE", "BELTABLE", "CARGO", "TOOL_WRENCH", "COVERED"],
+      "breaks_into": "ig_vp_seat"
+  },{
+      "type":"vehicle_part",
+      "id" : "heavy_stowboard_horizontal",
+      "name" : "重型积载板",
+      "symbol" : "h",
+      "color" : "white",
+      "broken_symbol" : "#",
+      "broken_color" : "light_gray",
+      "damage_modifier" : 80,
+      "durability" : 480,
+      "size" : 250,
+      "item" : "hdframe",
+      "difficulty" : 2,
+      "location" : "center",
+      "flags" : ["OBSTACLE", "CARGO", "COVERED"]
+  },{
+      "type":"vehicle_part",
+      "id" : "heavy_stowboard_vertical",
+      "name" : "重型积载板",
+      "symbol" : "j",
+      "color" : "white",
+      "broken_symbol" : "#",
+      "broken_color" : "light_gray",
+      "damage_modifier" : 80,
+      "durability" : 480,
+      "size" : 250,
+      "item" : "hdframe",
+      "difficulty" : 2,
+      "location" : "center",
+      "flags" : ["OBSTACLE", "CARGO", "COVERED"]
+  },{
+      "type":"vehicle_part",
+      "id" : "roof_duffelbag",
+      "name" : "车顶存储",
+      "symbol" : "#",
+      "color" : "light_gray",
+      "broken_symbol" : "#",
+      "broken_color" : "light_gray",
+      "damage_modifier" : 80,
+      "durability" : 120,
+      "size" : 120,
+      "item" : "duffelbag",
+      "difficulty" : 2,
+      "location" : "roof",
+      "flags" : ["CARGO", "COVERED", "TOOL_WRENCH"]
+  }
+]

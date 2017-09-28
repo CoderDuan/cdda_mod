@@ -1,0 +1,57 @@
+[
+  {
+    "id": "chemlab_advanced",
+    "type": "GENERIC",
+    "category": "veh_parts",
+    "name": "车载高级化学实验室",
+    "weight": 50000,
+    "volume": 100,
+    "price": 40000,
+    "material": "steel",
+    "symbol": "&",
+    "color": "light_cyan",
+    "description": "由烧杯、试管、加热装置、高压电源、温度计、气压表的高级化工制造工具，甚至使用了电脑来精确操控反应过程。你几乎能用它制造所有的化工产品，其产物的质量能够与灾变前的人类文明的技术相媲美。它需要额外电源以支持运作，标准电池在这里派不上用场。"
+  },
+  {
+    "id": "survivor_workbench_item",
+    "type": "GENERIC",
+    "category": "veh_parts",
+    "name": "Survivor's车载工作台",
+    "weight": 60000,
+    "volume": 100,
+    "price": 100000,
+    "material": "steel",
+    "symbol": "&",
+    "color": "light_green",
+    "description": "有了更轻更高强度的秘银材料作为结构支撑，幸存者工作台集成了你想要的一切。合理的空间分布让你同时拥有厨房、化学实验室、熔炉、电焊机、车床、净水器。甚至还有一个微型核反应堆作为能量源。狭小的空间让你你同时只能使用其中的一种工具，但你本来也只能一次做一件事不是吗？"
+  },
+  {
+    "id": "mithril_cargo_rack",
+    "type": "GENERIC",
+    "category": "veh_parts",
+    "name": "秘银框架货仓",
+    "description": "鉴于我们幸存者所要存储的物品，体积具有大都小于5升，绝大多数小于10升，个别大于10升的特点，幸存者们设计出了新的货仓结构，并使用结构更轻、强度更高的秘银作为结构支撑，节省出了更多的空间。这个货仓能够容纳下海量的物资。",
+    "weight" : 60000,
+    "to_hit" : -1,
+    "color" : "cyan",
+    "symbol" : "]",
+    "material" : ["mithril", "plastic"],
+    "volume" : 200,
+    "bashing" : 2,
+    "price" : 120000
+  },{
+      "type":"GENERIC",
+      "id" : "comfortable_seat",
+      "name" : "舒适转椅",
+      "description" : "高级皮质座椅，符合人体工学设计，座位下方还能存放货物。",
+      "weight" : 10000,
+      "to_hit" : -4,
+      "color" : "red",
+      "symbol" : "0",
+      "material" : ["leather", "aluminum"],
+      "volume" : 40,
+      "bashing" : 4,
+      "category" : "veh_parts",
+      "price" : 35000
+  }
+]

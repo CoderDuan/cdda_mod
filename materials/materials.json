@@ -1,0 +1,23 @@
+[
+  {
+      "type" : "material",
+      "ident" : "mithril",
+      "name" : "Mithril",
+      "repaired_with" : "scrap",
+      "bash_resist" : 11,
+      "cut_resist" : 11,
+      "bash_dmg_verb" : "dented",
+      "cut_dmg_verb" : "scratched",
+      "dmg_adj" : [
+          "dented",
+          "bent",
+          "smashed",
+          "shattered"
+      ],
+      "acid_resist" : 15,
+      "elec_resist" : 0,
+      "fire_resist" : 9,
+      "chip_resist" : 40,
+      "density" : 17
+  }
+]

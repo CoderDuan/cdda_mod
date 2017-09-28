@@ -1,0 +1,47 @@
+[
+  {
+    "type" : "recipe",
+    "result": "material_mithril_ingot",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "fabrication",
+    "skills_required" : [ [ "fabrication", 7 ] ],
+    "difficulty": 7,
+    "time": 20000,
+    "reversible": false,
+    "book_learn": [[ "manual_mars", 6 ]],
+    "qualities" : [ { "id" : "GLARE", "level" : 2 } ],
+    "tools": [
+      [
+        [ "crucible", -1 ],
+        [ "crucible_clay", -1 ]
+      ],
+      [ [ "forge", 600] ]
+    ],
+    "components": [
+      [ [ "material_mithril_ore", 8] ]
+    ]
+  },
+  {
+    "type" : "recipe",
+    "result": "mithril_plate",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "fabrication",
+    "skills_required" : [ [ "fabrication", 7 ] ],
+    "difficulty": 7,
+    "time": 60000,
+    "reversible": false,
+    "book_learn": [[ "manual_mars", 6 ]],
+    "qualities" : [ { "id" : "GLARE", "level" : 2 } ],
+    "tools": [
+      [ ["tongs", -1]  ],
+      [ ["swage", -1]  ],
+      [ ["anvil", -1]  ],
+      [ [ "forge", 600] ]
+    ],
+    "components": [
+      [ [ "material_mithril_ingot", 8] ]
+    ]
+  }
+]

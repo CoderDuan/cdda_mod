@@ -1,0 +1,67 @@
+[
+  {
+      "type" : "martial_art",
+      "id" : "style_madmax",
+      "name" : "Road Warrior",
+      "description": "My name is Max. My world, is fire and blood. I am the one who runs from both the living and the dead, hunted by scavengers, haunted by those I could not protect. A man reduced to a single instinct -- survive.              -- Mad Max: Fury Road",
+      "arm_block" : 99,
+      "leg_block" : 99,
+      "static_buffs" : [
+          {
+              "id" : "scav_static",
+              "name" : "Combat Expertise",
+              "description" : "Bonus acc from perception. Bonus speed frome dexterity.",
+              "min_melee" : 5,
+              "melee_allowed" : true,
+              "flat_bonuses" : [
+                ["hit", "int", 0.2],
+                ["movecost", -10.0],
+                ["speed", 10]
+              ]
+          }
+      ],
+      "onattack_buffs" : [{
+          "id" : "scav_defensive_attack",
+          "name" : "Defensive Strike",
+          "description" : "Bonus dodges and blocks after an attack.",
+          "buff_duration" : 4,
+          "min_melee" : 5,
+          "melee_allowed" : true,
+          "bonus_dodges" : 2,
+          "bonus_blocks" : 2
+      }],
+      "onhit_buffs": [{
+          "id" : "scav_power_attack",
+          "name" : "Power Attack",
+          "description" : "Bonus damage on hit.",
+          "buff_duration" : 4,
+          "min_melee" : 5,
+          "melee_allowed" : true,
+          "max_stacks" : 2,
+          "flat_bonuses" : [
+              ["damage", "bash", 0.3],
+              ["damage", "cut", 0.3],
+              ["damage", "stab", 0.3],
+              ["hit", -2.0]]
+      }],
+      "ondodge_buffs": [{
+          "id": "scav_dodge_buff",
+          "name" : "Fast Reaction",
+          "description" : "The enemy has presented an opening in their defense.",
+          "min_melee" : 5,
+          "melee_allowed" : true,
+          "max_stacks": 1,
+          "buff_duration" : 2,
+          "flat_bonuses" : [
+            ["hit", 1.0],
+            ["movecost", -5.0]
+          ]
+      }],
+      "techniques" : [
+          "tec_scav_counter",
+          "tec_scav_disarm",
+          "tec_scav_knockback",
+          "tec_scav_heavy"
+      ]
+  }
+]

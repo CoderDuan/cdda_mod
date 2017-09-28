@@ -1,0 +1,38 @@
+[
+  {
+    "id": "chemistry_set_advanced",
+    "type": "TOOL",
+    "symbol": ";",
+    "color": "light_cyan",
+    "name": "高级化工工具插件",
+    "description": "由烧杯、试管、加热装置、高压电源、温度计、气压表的高级化工制造工具插件，甚至使用了电脑来协助精确操控反应过程。这个插件无法单独运作，你可以用它协助化学用品包制造所有的化工产品，其产物的质量能够与灾变前的人类文明的技术相媲美。",
+    "price": 70000,
+    "material": ["glass", "plastic", "steel"],
+    "flags": ["TRADER_AVOID", "CHEMLAB_ADVANCED"],
+    "weight": 2800,
+    "volume": 10,
+    "to_hit": -4,
+    "qualities":[
+      [ "DISTILL", 3 ],
+      [ "CHEM", 4 ],
+      [ "BOIL", 3 ],
+      [ "COOK", 3 ]
+     ]
+  },
+  {
+    "id" : "mithril_hammer",
+    "type": "TOOL",
+    "name": "秘银锤",
+    "description": "秘银制的锤子，闪耀着银色与淡蓝色的光芒。适合与加工秘银材料。",
+    "weight": 800,
+    "volume": 2,
+    "price": 3000,
+    "to_hit": 3,
+    "bashing": 10,
+    "material": ["mithril"],
+    "symbol": ";",
+    "color": "light_cyan",
+    "qualities": [ [ "HAMMER_FINE", 2] ],
+    "flags": [ "BELT_CLIP" ]
+  }
+]

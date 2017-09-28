@@ -1,0 +1,22 @@
+[
+  {
+    "id": "methanol",
+    "type": "AMMO",
+    "name": "Methanol",
+    "name_plural": "Methanol",
+    "description": "Extremely pure methanol suitable for use as a component in chemical reactions. Toxic.",
+    "weight": 1,
+    "volume": 1,
+    "price": 500,
+    "price_postapoc": 500,
+    "count": 250,
+    "stack_size": 250,
+    "category": "chems",
+    "phase": "liquid",
+    "container": "bottle_glass",
+    "material": "alcohol",
+    "symbol": "~",
+    "color": "white",
+    "ammo_type": "conc_alcohol"
+  }
+]

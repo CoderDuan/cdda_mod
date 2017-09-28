@@ -1,0 +1,53 @@
+[
+  {
+   "type" : "GENERIC",
+   "price_postapoc": 500,
+   "id" : "material_mithril_ore",
+   "price" : 0,
+   "name" : "Mithril Ore",
+   "symbol" : "*",
+   "color" : "light_gray",
+   "description" : "A handful of mithril ores. Could be refined into mithril ingots.",
+   "material" : "stone",
+   "flags": "TRADER_AVOID",
+   "volume" : 4,
+   "weight" : 2650,
+   "bashing" : 1,
+   "damage" : 0,
+   "to_hit": -2
+  },
+  {
+    "type": "GENERIC",
+    "id": "material_mithril_ingot",
+    "price": 6000,
+    "name": "秘银金属锭",
+    "name_plural": "秘银金属锭",
+    "symbol": "*",
+    "color": "light_cyan",
+    "category": "spare_parts",
+    "description": "A small mithril ingot, reflecting blue magical light.",
+    "material": "mithril",
+    "flags": "TRADER_AVOID",
+    "volume": 2,
+    "weight": 900,
+    "bashing": 2,
+    "damage": 0,
+    "to_hit": 1
+  },
+  {
+    "type": "GENERIC",
+    "id": "mithril_plate",
+    "price": 45000,
+    "name": "秘银金属板",
+    "name_plural": "秘银金属板",
+    "symbol": "]",
+    "color": "light_cyan",
+    "category" : "veh_parts",
+    "description" : "A small mithril ingot, reflecting blue magical light.",
+    "material": ["mithril"],
+    "volume": 12,
+    "weight": 10800,
+    "bashing" : 8,
+    "to_hit": 0
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "result": "chemistry_set_advanced",
+    "type" : "recipe",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_TOOLS",
+    "skill_used": "fabrication",
+    "skills_required" : [
+      [ "electronics", 7 ],
+      [ "computer", 7],
+      [ "mechanics", 7 ] ],
+    "difficulty": 10,
+    "time": 120000,
+    "reversible": true,
+    "autolearn": false,
+    "book_learn": [ [ "recipe_lab_elec", 6 ] ],
+    "qualities": [
+      { "id": "HAMMER","level":3,"amount":1},
+      { "id": "SAW_M","level":1,"amount":1},
+      { "id": "WRENCH","level":1,"amount":1},
+      { "id": "SCREW","level":1,"amount":1},
+      { "id": "GLARE", "level" : 2 }
+     ],
+     "tools": [
+       [ [ "software_math", -1 ] ],
+       [
+         [ "welder", 100 ],
+         [ "oxy_torch", 20 ],
+         [ "welder_crude", 150 ],
+         [ "toolset", 150 ]
+       ],
+       [
+         [ "soldering_iron", 20 ],
+         [ "toolset", 20 ]
+       ]
+     ],
+     "components": [
+        [
+          ["flask_glass", 4],
+          ["jar_glass", 4],
+          ["bottle_glass", 4]
+        ],
+        [ [ "metal_tank_little", 1] ],
+        [ [ "chemistry_set", 1] ],
+        [ [ "still", 1] ],
+        [ [ "thermometer", 1] ],
+        [ [ "barometer", 1] ],
+        [ [ "laptop", 1 ] ],
+        [ [ "medium_storage_battery", 1], [ "small_storage_battery", 4] ],
+        [ [ "power_supply", 2] ],
+        [ [ "cable", 80] ]
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+{
+    "type": "MOD_INFO",
+    "mod-type": "SUPPLEMENTAL",
+    "ident": "duansmod",
+    "name": "代码段的模组",
+    "author" : "CoderDuan",
+    "description": "CDDA is a great game! Well, nothing is perfect... I need some modifications. --by CoderDuan",
+    "category": "misc_additions",
+    "path": ""
+}

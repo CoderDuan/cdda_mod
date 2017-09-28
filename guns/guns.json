@@ -1,0 +1,32 @@
+[
+	{
+		"id": "adv_gun_mars_dv24a",
+		"type": "GUN",
+		"symbol": "/",
+		"color": "cyan",
+		"name": "MARS DeltaV-24a突击步枪",
+		"name_plural": "DeltaV-24a突击步枪",
+		"description": "DeltaV-24a Assult Rifle was developed by M.A.R.S.(Mithril Alloy Refine Science) in 2024. ",
+		"price": 2500000,
+		"material": ["mithril", "plastic"],
+		"flags": [ "WATERPROOF_GUN", "NEVER_JAMS"],
+		"skill": "rifle",
+		"ammo": "45",
+		"weight": 2200,
+		"volume": 7,
+		"bashing": 8,
+		"to_hit": 0,
+		"range": 30,
+		"ranged_damage": 8,
+		"pierce": 6,
+		"dispersion": 10,
+		"durability": 9,
+		"burst": 2,
+		"valid_mod_locations":[ [ "accessories", 4 ], [ "barrel", 1 ],
+		 [ "bore", 1 ], [ "grip", 1 ], [ "mechanism", 4 ], [ "magazine", 1 ],
+		 [ "muzzle", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ],
+		 [ "underbarrel", 1 ] ],
+		"magazines": [[ "45", [ "tdi_mag" ] ]],
+		"techniques": ["WBLOCK_2"]
+	}
+]

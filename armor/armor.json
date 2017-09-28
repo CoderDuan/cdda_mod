@@ -1,0 +1,45 @@
+[
+  {
+    "id": "adv_UPS_off",
+    "override": true,
+    "type": "TOOL_ARMOR",
+    "symbol": "$",
+    "color": "light_cyan",
+    "name" : "MARS UPS能量核心",
+    "name_plural" : "MARS UPS能量核心",
+    "description": "超微型核反应堆，代表了MARS科技的最高水准，能够随身携带，并向UPS供电",
+    "price": 480000,
+    "material": ["mithril", "plastic" ],
+    "weight" : 45,
+    "volume": 0,
+    "initial_charges": 1000,
+    "max_charges": 2500,
+    "flags": [ "FANCY", "NO_UNLOAD" ],
+    "artifact_data": {
+      "charge_type": "ARTC_TIME"
+    }
+  },
+  {
+    "id": "boots_survivor_env",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": "幸存者防化靴",
+    "name_plural": "幸存者防化靴",
+    "description": "A pair of customized leather boots, armored with kevlar and modified to provide maximum protection from harm, even when knee-deep in the dead.",
+    "weight": 1550,
+    "volume": 12,
+    "price": 26000,
+    "to_hit": -1,
+    "bashing": 1,
+    "material": [ "kevlar", "plastic" ],
+    "symbol": "[",
+    "color": "light_gray",
+    "covers": [ "FEET" ],
+    "coverage": 100,
+    "encumbrance": 27,
+    "warmth": 15,
+    "material_thickness": 5,
+    "environmental_protection": 10,
+    "flags": [ "VARSIZE", "WATERPROOF", "STURDY" ]
+  }
+]
